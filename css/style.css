@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* globales */
+a{
+    text-decoration: none;    
+}
+h1{
+    font-size: 32px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; /* espesor, light|normal|negrita */
+    font-size: 16px;
+    color: #fff;
+}
+
+header{
+    height: 210px;
+    width: 1100px;
+    color: #FFF;
+    background-color: black;
+    margin: auto; /* caja centrada */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centrado vertical */
+}
+
+    header a{
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFF;
+        background-color: #707070;
+        border-radius: 10px;
+       justify-content: space-between;
+        
+    }
+
+    header a img{
+        width: 250px;
+        display: flex;
+        
+    }
+
+    header nav a{
+        padding: 12px;
+    }
+    .home a:hover{
+        opacity: 0.3;
+
+    }
+   
+    
+    
+
+/* hero-banner */
+#hero-banner{
+    height: 1100px;
+    background-image: url(../imagenes/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+
+/* main */
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+/* separador hiking */
+#hiking{
+    height: 320px;
+    /*display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /*justify-content: center;*/
+    padding-top: 98px;
+}
+    #hiking h2{
+        width: 100%;
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: center;
+    }
+    #hiking p{
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+/* promos */
+
+#promos{
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos de las cajas */
+}
+
+
+    #promo-1, #promo-2{
+        padding: 100px 80px 0px 80px;
+        color: #fff;
+        width: 550px;
+        height: 550px;
+    }
+
+    #promo-1{
+        background-color:#c9e154 ;
+    }
+    #promo-2{
+        background-color: #c9e154;
+    }
+#promos h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    background-color: #c9e154;
+}
+
+#promos p{
+    margin-top: 32px;
+    color: #707070;
+    background-color:#c9e154 ;
+} 
+
+/* separador aventura */
+#aventura{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #aventura h2{
+        font-weight: 600;
+        font-size: 32px;
+        color: #fff;
+        background-color: black;
+    }
+
+/*  historia  */
+#historia{
+display: flex;
+justify-content: space-between;
+color: #fff;
+}
+
+#historia article{
+    width: 339px;
+    color: black;
+    background-color:#ecc958 ;
+}
+#historia img{
+    width: 339px;
+    height: 301px;
+}
+#historia h2{
+    margin: 18px 36px 12px 36px;
+    color: black;
+    background-color: #ecc958;
+}
+#historia p{
+    margin: 0px 36px 24px 36px;
+    color: #707070;
+    background-color: #ecc958;
+}
+
+/* contacto */
+#contacto{
+height: 850px;
+margin-top: 64px;
+padding-top: 50px;
+background-image: url(../imagenes/empanadas.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0 -120px;
+}
+#contacto form{
+    width: 698px;
+    margin: auto;
+    padding: 20px 28px;
+    border-radius: 12px;
+}
+
+#contacto form input,
+#contacto form textarea
+{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0px 14px 0px;
+    color: black;
+    background-color: #FFF;
+}
+#contacto form textarea {
+    height: 80px;
+    resize: none;
+    color: black;
+    background-color: #FFF;
+}
+#contacto form button{
+    background-color: #707070;
+    color: #FFF;
+    border: #FFF 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+    width: 200px;
+    cursor: pointer;
+}
+#contacto form button:hover{
+    background-color: #ecc958;
+}
+
+footer{
+background-color: black;
+color: #fff;
+margin-top: 80px;
+}
+footer section{
+    width: 1100px;
+    height: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#redes img{
+    width: 24px;
+    margin-left: 12px;
+}
+
+#listas{
+    display: flex;
+}
+    #listas ul{
+        list-style-type: none;
+        margin-left: 60px;
+    }
+    #listas li{
+        margin: 4px 0px;
+    }
+   /* .destacado{
+        font-weight: 600;
+    }*/
+#listas ul li:first-child{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
