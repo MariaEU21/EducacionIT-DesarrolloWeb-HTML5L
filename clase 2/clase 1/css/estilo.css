@@ -1,0 +1,15 @@
+/* SACAR LOS VALOR QUE VIENE POR DEFECTRO EL NAVEGADOR*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+
+.titulo1 {
+    color: red; /*color de la letra*/
+    background-color: black; /*Define el color de fondo*/
+    font-family: 'Lobster', cursive, sans-serif; /*Tipografia*/
+    
+
+}
